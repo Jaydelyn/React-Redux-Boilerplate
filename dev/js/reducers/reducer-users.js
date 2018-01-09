@@ -1,33 +1,28 @@
-/*
- * The users reducer will always return an array of users no matter what
- * You need to return something, so if there are no users then just return an empty array
- * */
-
-export default function () {
-    return [
-        {
-            id: 1,
-            first: "Bucky",
-            last: "Roberts",
-            age: 71,
-            description: "Bucky is a React developer and YouTuber",
-            thumbnail: "http://i.imgur.com/7yUvePI.jpg"
-        },
-        {
-            id: 2,
-            first: "Joby",
-            last: "Wasilenko",
-            age: 27,
-            description: "Joby loves the Packers, cheese, and turtles.",
-            thumbnail: "http://i.imgur.com/52xRlm8.png"
-        },
-        {
-            id: 3,
-            first: "Madison",
-            last: "Williams",
-            age: 24,
-            description: "Madi likes her dog but it is really annoying.",
-            thumbnail: "http://i.imgur.com/4EMtxHB.png"
-        }
-    ]
+export default function() {
+	return [
+		{
+			id: 1,
+			first: "Mia",
+			last: "Durand",
+			age: 51,
+			description: "Mia pretends to be a front end developer",
+			thumbnail: "https://images.pexels.com/photos/36717/amazing-animal-beautiful-beautifull.jpg?w=600&h=350&auto=compress&cs=tinysrgb"
+		},
+		{
+			id: 2,
+			first: "Daymon",
+			last: "Allen",
+			age: 39,
+			description: "Daymon is a hugely talented front end developer, and crazy sexy too.",
+			thumbnail: "https://images.pexels.com/photos/461935/pexels-photo-461935.jpeg?w=600&h=350&auto=compress&cs=tinysrgb"
+		},
+		{
+			id: 3,
+			first: "Moff",
+			last: "McMofferstein",
+			age: 75,
+			description: "Maybe the dingo ate your baby.",
+			thumbnail: "https://images.pexels.com/photos/210384/pexels-photo-210384.jpeg?w=600&h=350&auto=compress&cs=tinysrgb"
+		}
+	]
 }
